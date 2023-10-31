@@ -49,7 +49,7 @@ try:
     ufValida = False
 
     while ufValida == False:
-        uf = input("Informe a sigla da sua UF: ")
+        uf = input("Informe a sigla da sua UF: ").upper()
         if uf in ufExistente:
             ufValida = True
         else:
